@@ -40,7 +40,7 @@ const Order: React.FC<IProps> = (props) => {
                     <p className="total-price">Общая цена: {props.price} сом</p>
                 </div>
             ) : (
-                <p>Заказы отстутствуют</p>
+                <p className="no-price">Заказы отстутствуют</p>
             )}
         </div>
     );
